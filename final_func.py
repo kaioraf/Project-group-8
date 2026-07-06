@@ -331,10 +331,10 @@ def color_dark_field_var(bottom_percentile = 10, top_percentile = 90):
 
 
 if __name__ == '__main__':
-    print_poster_map_errors()
+    #print_poster_map_errors()
     #color_dark_field_var(bottom_percentile = 10, top_percentile = 90)
-    color_map_var_array(P = 40, V = 90, bottom_percentile = 10, top_percentile = 90)
-    color_map_avg_array(P = 40, V = 90, bottom_percentile = 10, top_percentile = 90)
-    color_map_var_eindbaas_per_pixel(P = 40, V = 90, bottom_percentile = 10, top_percentile = 90)
+    #color_map_var_array(P = 40, V = 90, bottom_percentile = 10, top_percentile = 90)
+    #color_map_avg_array(P = 40, V = 90, bottom_percentile = 10, top_percentile = 90)
+    #color_map_var_eindbaas_per_pixel(P = 40, V = 90, bottom_percentile = 10, top_percentile = 90)
     #color_map_var_eind_baas(P = 40, V = 90, bottom_percentile = 10, top_percentile = 90)
-    color_map_eind_baas(P = 40, V = 90, bottom_percentile = 10, top_percentile = 90)
+    color_map_eind_baas(P = 4003.67, V = 9000, bottom_percentile = 10, top_percentile = 90)
