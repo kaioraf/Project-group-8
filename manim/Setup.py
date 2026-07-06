@@ -140,6 +140,8 @@ class Setup(ThreeDScene):
             stroke_color=YELLOW,
             stroke_width=3,
         ).move_to(ORIGIN)
+        
+        self.wait(5)
 
         self.play(
             FadeOut(trash, scale=0.5),
@@ -460,14 +462,14 @@ class Setup(ThreeDScene):
         self.move_camera(
             theta=90 * DEGREES,
             phi=80 * DEGREES,
-            run_time=8,
+            run_time=25,
             rate_func=linear,
             added_anims=[
                 *electron_anims,
                 shooting_motion,
                 anode_heat,
                 cathode_heat,
-            ],
+            ]
         )
 
         anode.clear_updaters()
